@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "308849210802",
+    "project_id": "sreeapp-1d6d4",
+    "storage_bucket": "sreeapp-1d6d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308849210802:android:c322605c6194288d4460ab",
+        "android_client_info": {
+          "package_name": "com.ecommerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD42vXVi3HZNlPuz1e1qbliP0khfWSfHf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

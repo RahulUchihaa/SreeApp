@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "132002362677",
+    "project_id": "sreedemoapp",
+    "storage_bucket": "sreedemoapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132002362677:android:5b343b27de8bcb5ba6887c",
+        "android_client_info": {
+          "package_name": "com.ecommerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy0N2TOeEahRsgpzYlW90YEbURcu9lUVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
