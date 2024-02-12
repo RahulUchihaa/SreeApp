@@ -21,7 +21,7 @@ const Splash = () => {
         loop={false}
         style={GlobalStyles.lottieView}
         onAnimationFinish={() => {
-          if (user.name !== "") {
+          if (user.full_name !== "") {
             navigation.replace(ScreenNames.BottomTabScreen);
           } else {
             navigation.replace(ScreenNames.OnboardingScreen);

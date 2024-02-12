@@ -17,7 +17,6 @@ import {
 } from '../Helpers/Constants';
 import {Registrationstyles} from '../Helpers/GlobalStyles';
 import {setUser} from '../redux/UserSlice';
-import {firebase} from '@react-native-firebase/auth';
 import fireStore from '@react-native-firebase/firestore';
 
 type registration = {
@@ -55,7 +54,7 @@ const Registration: React.FC<registration> = ({navigation}) => {
       }
       dispatch(setUser(ddata))
       const confirmation = await auth().signInWithPhoneNumber("+91" + data.phoneNumber.toString());
-      console.log(confirmation)
+      console.log("thhihfs",confirmation)
 
       if(confirmation){
         navigation.navigate(ScreenNames.OTPScreen,{phone:data.phoneNumber,confirm:confirmation});
